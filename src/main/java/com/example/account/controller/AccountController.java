@@ -13,7 +13,7 @@ public class AccountController {
 
 
 	@GetMapping("/")
-	public String get() {
+	public String getHome() {
 		return "this is home controller";
 	}
 }
