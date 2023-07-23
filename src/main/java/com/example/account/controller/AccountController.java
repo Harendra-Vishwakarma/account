@@ -10,4 +10,10 @@ public class AccountController {
 	public String get() {
 		return "this is rest controller";
 	}
+
+
+	@GetMapping("/")
+	public String get() {
+		return "this is home controller";
+	}
 }
